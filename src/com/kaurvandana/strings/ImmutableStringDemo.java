@@ -1,4 +1,4 @@
-package com.kaurvandana.javaQues;
+package com.kaurvandana.strings;
 
 public class ImmutableStringDemo {
     public static void main(String[] args) {

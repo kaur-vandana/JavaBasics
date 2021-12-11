@@ -1,4 +1,4 @@
-package com.kaurvandana.javaQues.PassByValueDemo2;
+package com.kaurvandana.passByValue.passByValueDemo2;
 
 public class Bike {
     private double speed;

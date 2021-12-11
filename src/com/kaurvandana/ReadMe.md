@@ -30,7 +30,7 @@ will be returned.
 
 # Immutable String in Java
 In Java, String objects are immutable. Immutable simply means unmodifiable or unchangeable.
-Once String object is created its data or state can't be changed but a new String object is created in the string
+Once String object is created its data or state can't be changed but a new String object is created by JVM in the string
 Constant pool.
 
 ### Why String objects are immutable in Java?
@@ -56,4 +56,22 @@ That is why String objects are immutable in Java.
 4. Heap Space: The immutability of String helps to minimize the usage in the heap memory. When we try to declare a new String object,
    the JVM checks whether the value already exists in the String pool or not. If it exists, the same value is assigned to
    the new object. This feature allows Java to use the heap space efficiently.
+
+# What is a mutable string in java?
+
+Mutable means changing over time or that can be changed. In a mutable string, we can change the value of string and JVM 
+doesn’t create a new object. In a mutable string, we can change the value of the string in the same object. To create a 
+mutable string in java, Java has two classes StringBuffer and StringBuilder where String class is used to the immutable 
+string.
+
+# How to create a mutable string in java?
+To create a mutable string, we can use StringBuffer and StringBuilder class. Both classes create a mutable object of 
+string but which one we should use is totally depends on the scenario.
+
+Suppose if you want to work in a multithreading environment and the string should be thread-safe then you should use the
+StringBuffer class. 
+On the other hand, if you don’t want a multithreading environment then you can use StringBuilder is not.
+But when you consider performance first then StringBuilder is better in terms of performance as compared to StringBuffer.
+
+
  

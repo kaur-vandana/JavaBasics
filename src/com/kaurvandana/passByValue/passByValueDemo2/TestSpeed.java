@@ -1,4 +1,4 @@
-package com.kaurvandana.javaQues.PassByValueDemo2;
+package com.kaurvandana.passByValue.passByValueDemo2;
 
 public class TestSpeed {
     public static void swap(Object o1, Object o2)// method for swapping variables
