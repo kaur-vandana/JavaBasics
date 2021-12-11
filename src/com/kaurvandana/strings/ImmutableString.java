@@ -1,5 +1,7 @@
 package com.kaurvandana.strings;
 
+import java.util.Arrays;
+
 public class ImmutableString {
     public static void main(String[] args) {
         String s1 = "Hello"; // strings are stored in Heap memory
@@ -30,21 +32,34 @@ public class ImmutableString {
 
         System.out.println("last char = " + s1.charAt(s1.length()-1));
 
-        if(s1.compareTo("Sachin") == 0) {
-            System.out.println("Sachin == equal");
+        //The Java String class getChars() method copies the content of this string into a specified char array.
+        //getChars(int srcBeginIndex, int srcEndIndex, char[] destination, int dstBeginIndex)
+
+        char [] ch = new char[5];
+        s1.getChars(0,5,ch,0);
+
+        Arrays.asList(ch).stream().forEach(System.out::println);
+
+        String myStr = "Hello planet earth, you are a great planet.";
+        System.out.println(myStr.lastIndexOf("planet"));
+        System.out.println(myStr.lastIndexOf("lo"));
+        System.out.println(myStr.lastIndexOf("Hello"));
+
+        if (myStr.contains("planet")) {
+            System.out.println("yes it contains");
+        }
+        if (!myStr.contains("zebra")) {
+            System.out.println("No it does not contains zebra");
         }
 
-        if(s1.compareTo("Rose") > 0) {
-            System.out.println("Sachin > Rose");
-        }
-
-        if(s1.compareTo("zebra") < 0) {
-            System.out.println("Sachin < zebra");
-        }
-
-        if("zebra".compareTo(s1) > 0) {
-            System.out.println("zebra > Sachin");
-        }
-
+       if ( myStr.compareTo("Hello planet earth, you are a great planet.") ==0) {
+           System.out.println("equal");
+       }
+       if ("A".compareTo("B")<0) {
+           System.out.println("A<B");
+       }
+       if ("C".compareTo("B")>0) {
+            System.out.println("C>B");
+       }
     }
 }
