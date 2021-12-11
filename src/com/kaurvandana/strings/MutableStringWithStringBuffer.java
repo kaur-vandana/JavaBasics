@@ -11,9 +11,9 @@ public class MutableStringWithStringBuffer {
         should use the StringBuffer class
         */
         StringBuffer str1 = new StringBuffer("JavaGoal");
-
         System.out.println("Value of str1 =" + str1);
 
+        //append
         str1.append(".com");
         System.out.println("append --> " + str1);
 
@@ -21,9 +21,11 @@ public class MutableStringWithStringBuffer {
         str1.replace(0,str1.length(), "hello");
         System.out.println("replace --> " + str1);
 
+        //length of string
         int length = str1.length();
         System.out.println("length of str1 --> " + length);
 
+        //character at particular index
         char ch = str1.charAt(0);
         System.out.println("char at index 0  --> " + ch);
 
@@ -49,20 +51,18 @@ public class MutableStringWithStringBuffer {
        but is not required to, affect the value returned by a subsequent call to the capacity() method.
         */
 
-        // print capacity
-        System.out.println("Capacity before " + "applying trimToSize() = " + str1.capacity());
         // applying trimToSize() Method
+        System.out.println("Capacity before " + "applying trimToSize() = " + str1.capacity());
         str1.trimToSize();
-        // print string
         System.out.println("String = " + str1);
-        // print capacity
         System.out.println("Capacity after" + " applying trimToSize() = " + str1.capacity());
 
+        //sub sequence
         System.out.println("sub sequence = " +  str1.subSequence(0,2));
+
+        //creating a character array out of string
         char[] charArray = new char[2];
-
         str1.getChars(0,2, charArray, 0);
-
         Arrays.asList(charArray).stream().forEach(System.out::println);
 
         /*The delete(int start, int end) method of StringBuilder class removes the characters starting from index start to
