@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PrintAList {
     public static void main(String[] args) {
-        List<String> countryNames = new ArrayList<String>();
+        List<String> countryNames = new ArrayList<>();
         countryNames.add("India");
         countryNames.add("England");
         countryNames.add("Australia");
@@ -17,5 +17,7 @@ public class PrintAList {
 
         //with method reference
         countryNames.stream().forEach(System.out::println);
+
+        countryNames.forEach(System.out::println);
     }
 }
