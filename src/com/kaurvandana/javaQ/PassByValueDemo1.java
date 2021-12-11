@@ -1,4 +1,4 @@
-package com.kaurvandana.interviewQuestions;
+package com.kaurvandana.javaQ;
 
 public class PassByValueDemo1 {
 
