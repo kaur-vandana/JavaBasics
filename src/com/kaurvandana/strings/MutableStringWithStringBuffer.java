@@ -28,15 +28,13 @@ public class MutableStringWithStringBuffer {
 
         /*Java String chars() method returns an IntStream. The stream contains the integer code point values of the
         characters in the string object. This method was added to the String class in Java 9 release.*/
-        System.out.println("Printing the String Character Code Points  --> " + str1.chars());
+        System.out.println("Printing the String Character Code Points  --> ");
         str1.chars().forEach(System.out::println);
 
         /*If you have to process the string characters and you don’t mind unordered processing, you can create a parallel
         stream and process its characters.*/
         System.out.println("Processing String Characters in Parallel  --> ");
         str1.chars().parallel().forEach(c -> System.out.println(Character.valueOf((char) c)));
-
-        System.out.println(" lastIndexOf --> " + str1.lastIndexOf("w"));
 
 
     }
