@@ -1,4 +1,4 @@
-package com.kaurvandana.interviewQuestions.PassByValue;
+package com.kaurvandana.interviewQuestions.PassByValueDemo2;
 
 public class Bike {
     private double speed;
