@@ -1,4 +1,4 @@
-package com.kaurvandana.streams;
+package com.kaurvandana.lambdaandstreams;
 
 import java.util.Arrays;
 

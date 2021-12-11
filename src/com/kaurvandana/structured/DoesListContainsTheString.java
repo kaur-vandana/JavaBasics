@@ -1,4 +1,4 @@
-package com.kaurvandana.programs;
+package com.kaurvandana.structured;
 
 import java.util.Arrays;
 import java.util.List;
