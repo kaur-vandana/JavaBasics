@@ -1,8 +1,5 @@
 package com.kv.functionalprogramming;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ConvertStringToList {
     public static void main(String[] args) {
         String str = "Hello World";
@@ -10,13 +7,7 @@ public class ConvertStringToList {
 
 
 
-        List<Character> charStr = new ArrayList<>();
-        str.chars().forEach(y -> {
-            if(y!= ' ') {
-                charStr.add((char) y);
-            }
-        });
-        System.out.println(charStr);
+
 
 
 
