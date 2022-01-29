@@ -1,4 +1,4 @@
-package com.kv.javaCourse.passByValue.passByValueDemo2;
+package com.kv.javaCourse.passByValue.Demo2;
 
 public class Bike {
     private double speed;

@@ -9,6 +9,8 @@ public class FindMaxMinSumCountValue {
         Integer val= numbers.stream().max(Integer::compare).get();
         System.out.println("max = " + val);
 
+//        Method References
+//        Integer::compare
         System.out.println("min = " + numbers.stream().min(Integer::compare).get());
 
         System.out.println("sum = "+numbers.stream().reduce(0,(x,y)->x+y));

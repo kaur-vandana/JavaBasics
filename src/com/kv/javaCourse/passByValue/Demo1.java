@@ -1,6 +1,6 @@
 package com.kv.javaCourse.passByValue;
 
-public class PassByValueDemo1 {
+public class Demo1 {
 
     int parameter =100;
 
@@ -10,7 +10,7 @@ public class PassByValueDemo1 {
 
     public static void main(String[] args) {
 
-        PassByValueDemo1 passByValue =new PassByValueDemo1();  //Creating object
+        Demo1 passByValue =new Demo1();  //Creating object
 
         System.out.println(" Value (before change)=" + passByValue.parameter);
 
