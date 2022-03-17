@@ -2,7 +2,7 @@ package com.kv.functionalprogramming;
 
 import java.util.Arrays;
 
-public class Sorting {
+public class SortingArray {
     public static void main(String[] args) {
         String [] array = { "blue", "green", "red", "blue", "green", "red", "blue", "green", "red"};
 
