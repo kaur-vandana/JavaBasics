@@ -1,6 +1,8 @@
 package com.kv.structuralprogramming;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Sorting {
     public static void main(String[] args) {
@@ -20,6 +22,25 @@ public class Sorting {
             i++;
         }
 
-        System.out.println(Arrays.toString(array));
+        System.out.println("sorted list1 = " + Arrays.toString(array));
+
+        // ................................................................
+        
+        String [] array1 = { "blue", "green", "red", "blue", "green", "red", "blue", "green", "red"};
+         Arrays.sort(array1);
+        System.out.println("sorted list1 = " + Arrays.toString(array1));
+
+
+        // ................................................................
+
+        String [] array2 = { "blue", "green", "red", "blue", "green", "red", "blue", "green", "red"};
+        List<String> list = Arrays.stream(array2).sorted().collect(Collectors.toList());
+        System.out.println("sorted list1 = " + list);
+        
+
+        // ................................................................
+
+
+
     }
 }
