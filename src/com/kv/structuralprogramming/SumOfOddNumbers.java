@@ -36,5 +36,15 @@ public class SumOfOddNumbers {
 
         // ................................................................
 
+        //method reference
+        sum = numbers.stream()
+                .filter(SumOfOddNumbers::isOdd)
+                .reduce(0, Integer::sum);
+
+        System.out.println("sum4 = " + sum);
+    }
+
+    private static boolean isOdd(Integer number) {
+        return number%2	!= 0;
     }
 }
