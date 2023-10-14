@@ -1,4 +1,4 @@
-package com.kv.functionalprogramming;
+package com.kv.functional;
 
 import java.util.Arrays;
 import java.util.List;

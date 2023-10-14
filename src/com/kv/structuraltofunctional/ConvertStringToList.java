@@ -1,4 +1,4 @@
-package com.kv.structuralprogramming;
+package com.kv.structuraltofunctional;
 
 import java.util.ArrayList;
 import java.util.List;

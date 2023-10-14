@@ -1,11 +1,12 @@
-package com.kv.functionalprogramming;
+package com.kv.functional;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class SortMapByKey {
+public class SortMapByValue {
+
     public static void main(String[] args) {
         Map<String, Integer> unordered = new HashMap<>();
         unordered.put("dog", 1);
@@ -15,13 +16,12 @@ public class SortMapByKey {
         unordered.put("bat", 50);
         unordered.put("elephant", 61);
 
-        Map result = unordered.entrySet().stream()
-                .sorted(Map.Entry.comparingByKey())
+        //LinkedHashMap to store sorted map
+        unordered.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue())
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
-                        (oldValue, newValue) -> oldValue, LinkedHashMap::new));
-
-        result.entrySet().stream().forEach(System.out::println);
-
+                        (oldValue, newValue) -> oldValue, LinkedHashMap::new))
+                .forEach((k, v) -> System.out.println( k + " " + v));
 
     }
 }

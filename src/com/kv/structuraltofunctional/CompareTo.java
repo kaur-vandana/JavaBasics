@@ -1,4 +1,4 @@
-package com.kv.structuralprogramming;
+package com.kv.structuraltofunctional;
 
 public class CompareTo {
 

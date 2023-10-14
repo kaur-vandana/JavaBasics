@@ -1,4 +1,4 @@
-package com.kv.functionalprogramming.functionalInterfaces;
+package com.kv.functional.functionalInterfaces;
 
 // Java program to demonstrate lambda expressions to
 // implement a user defined functional interface.
