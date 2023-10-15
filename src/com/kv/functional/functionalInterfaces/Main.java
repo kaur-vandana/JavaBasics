@@ -1,6 +1,6 @@
 package com.kv.functional.functionalInterfaces;
 
-public class Main implements Foo{
+public class Main implements Foo {
 
     // Default Method - Optional to Override
     @Override

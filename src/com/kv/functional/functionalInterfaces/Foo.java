@@ -1,6 +1,6 @@
 package com.kv.functional.functionalInterfaces;
 
-@FunctionalInterface    // Annotation is optional
+@FunctionalInterface // Annotation is optional
 public interface Foo {
 
     // Default Method - Optional can be 0 or more
