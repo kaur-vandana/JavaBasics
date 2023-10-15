@@ -15,7 +15,6 @@ public class DoesListContainsTheString {
 
         // ................................................................
 
-
         Predicate<String> string = obj -> obj.equals("Baeldung");
 
         /*
@@ -25,6 +24,14 @@ public class DoesListContainsTheString {
         boolean result = words.stream().anyMatch(string);
 
         System.out.println(result);
+
+
+        // ................................................................
+
+        boolean result1 =  words.stream().anyMatch(obj -> obj.equals("Baeldung"));
+        System.out.println(result1);
+
+
 
     }
 }

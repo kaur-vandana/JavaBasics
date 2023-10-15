@@ -2,6 +2,7 @@ package com.kv.structuraltofunctional;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class NumberOfOccurrenceOfANumber {
     public static void main(String[] args) {
@@ -19,9 +20,17 @@ public class NumberOfOccurrenceOfANumber {
 
         // ................................................................
 
-        long occurrence = numbers.stream().filter(x-> number==x).count();
+        Predicate<Integer> numberFilter = x-> number==x;
+
+        long occurrence = numbers.stream().filter(numberFilter).count();
 
         System.out.println("NumberOfOccurrenceOfANumber of 3 = " + occurrence);
+
+
+
+        // ................................................................
+
+       
 
     }
 }
