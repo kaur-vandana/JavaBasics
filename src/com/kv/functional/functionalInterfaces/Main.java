@@ -4,13 +4,13 @@ public class Main implements Foo {
 
     // Default Method - Optional to Override
     @Override
-    public String HelloWorld() {
-        return "Hello Java 8";
+    public String helloWorld() {
+        return "Main Hello Java";
     }
 
     @Override
     public void bar() {
-        System.out.println("Hello World");
+        System.out.println("Main Bar Hello World");
     }
 
     public static void main(String[] args) {
@@ -22,6 +22,10 @@ public class Main implements Foo {
         // parameter passed and return type must be same as defined in the prototype
         int ans = s.calculate(a);
         System.out.println(ans);
+
+        Main main = new Main();
+        main.bar();
+
     }
 
 }

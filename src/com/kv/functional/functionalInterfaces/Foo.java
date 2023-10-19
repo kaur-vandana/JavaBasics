@@ -4,8 +4,8 @@ package com.kv.functional.functionalInterfaces;
 public interface Foo {
 
     // Default Method - Optional can be 0 or more
-    public default String HelloWorld() {
-        return "Hello World";
+    public default String helloWorld() {
+        return "Foo Hello World";
     }
 
     // Static Method - Optional can be 0 or more
