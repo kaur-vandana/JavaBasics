@@ -169,9 +169,7 @@
   that, we use the instance variable, which should be created before it is used.
 * Inheritance : "is-a relation"
   Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
-* Encapsulation : is the mechanism that allows you to restrict access to certain components in the objects that you are 
-  creating. So you are able to protect the members of a class from external access in order to really guard against 
-  unauthorized access.
+* Encapsulation : is the mechanism that allows you to restrict access to certain components in the    objects that you are creating. So you are able to protect the members of a class from external access in order to really guard against unauthorized access.
 * Polymorphism : Polymorphism in Java is a concept by which we can perform a single action in different ways. ... 
   So polymorphism means many forms. There are two types of polymorphism in Java: compile-time polymorphism and runtime 
   polymorphism. We can perform polymorphism in java by method overloading and method overriding.
