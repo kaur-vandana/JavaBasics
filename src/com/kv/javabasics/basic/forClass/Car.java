@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.forClass;
+package com.kv.javabasics.basic.forClass;
 
 //Class
 public class Car {

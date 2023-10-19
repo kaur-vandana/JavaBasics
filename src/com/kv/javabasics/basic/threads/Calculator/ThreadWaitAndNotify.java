@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.threads.Calculator;
+package com.kv.javabasics.basic.threads.Calculator;
 
 public class ThreadWaitAndNotify {
     public static void main(String[] args)	throws InterruptedException	{

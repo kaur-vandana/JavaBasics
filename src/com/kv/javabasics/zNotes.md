@@ -5,10 +5,6 @@
 #### variables
 * variables are a way to store information in our computer.
 * computer stores these in RAM (ramdom access memory).
-* variables can be assigned by name assigned to them
-
-#### Data types
-* int - whole number
 
 #### Expression
 * An expression is formed by combining variables, literals, method return values and operators.
@@ -33,8 +29,7 @@
 2. byte
    * A BYTE occupies 8 bits. A bit is not directly represented in a primitive type.
 3. char
-   * A char occupies two byte of memory, or 16 bits and thus has a width of 16. The reason its not just a single byte is
-     that it allows you to store Unicode characters
+   * A char occupies two byte of memory, or 16 bits and thus has a width of 16. The reason its not just a single byte is that it allows you to store Unicode characters
 4. short
    * A short can store a large range of number  and occupies 16 bits, and width of 16.
 5. int
@@ -42,11 +37,10 @@
 6. long
 7. float
 8. double
-* these are used for data manipulation
+
 
 #### BigDecimal
-* Both float and double are not great to use where precise calculations are required - this is due to a limitation with 
-  how floating point numbers are stored, and not a Java problem as such
+* Both float and double are not great to use where precise calculations are required - this is due to a limitation with how floating point numbers are stored, and not a Java problem as such
 * Java has a class called BigDecimal that overcomes this.
 
 #### Unicode 

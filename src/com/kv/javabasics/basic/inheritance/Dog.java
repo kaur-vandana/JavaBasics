@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.inheritance;
+package com.kv.javabasics.basic.inheritance;
 
 public class Dog extends Animal {
 

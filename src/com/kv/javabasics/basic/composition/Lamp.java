@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.composition;
+package com.kv.javabasics.basic.composition;
 
 public class Lamp {
     private String style;

@@ -1,4 +1,4 @@
-package com.kv.javaCourse.passByValue;
+package com.kv.javabasics.passByValue;
 
 public class Demo1 {
 

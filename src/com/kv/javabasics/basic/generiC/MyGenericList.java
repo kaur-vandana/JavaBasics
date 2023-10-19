@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.generiC;
+package com.kv.javabasics.basic.generiC;
 
 import java.util.ArrayList;
 import java.util.List;

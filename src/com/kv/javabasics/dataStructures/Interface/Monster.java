@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.Interface;
+package com.kv.javabasics.dataStructures.Interface;
 
 //public class Monster implements ISaveable {
 

@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.threads;
+package com.kv.javabasics.basic.threads;
 
 public class BattingStatisticsThreadWithRunnable implements Runnable{
     //run	method	without	parameters

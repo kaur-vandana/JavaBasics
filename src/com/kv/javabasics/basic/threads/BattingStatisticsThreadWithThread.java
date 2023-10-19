@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.threads;
+package com.kv.javabasics.basic.threads;
 
 public class BattingStatisticsThreadWithThread extends Thread {
     //run	method	without	parameters

@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.linkedlist.Notes;
+package com.kv.javabasics.dataStructures.linkedlist.Notes;
 
 import java.util.*;
 

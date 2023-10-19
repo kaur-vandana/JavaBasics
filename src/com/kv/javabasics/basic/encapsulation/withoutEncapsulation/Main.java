@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.encapsulation.withoutEncapsulation;
+package com.kv.javabasics.basic.encapsulation.withoutEncapsulation;
 
 public class Main {
 

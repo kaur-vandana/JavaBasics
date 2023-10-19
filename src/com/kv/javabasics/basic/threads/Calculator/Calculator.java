@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.threads.Calculator;
+package com.kv.javabasics.basic.threads.Calculator;
 
 class Calculator extends Thread	{
     long sumUptoMillion;

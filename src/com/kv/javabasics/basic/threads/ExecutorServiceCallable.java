@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.threads;
+package com.kv.javabasics.basic.threads;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

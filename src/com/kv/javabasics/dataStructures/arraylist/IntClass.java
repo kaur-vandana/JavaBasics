@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.arraylist;
+package com.kv.javabasics.dataStructures.arraylist;
 
 public class IntClass {
 

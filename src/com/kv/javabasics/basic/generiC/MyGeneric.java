@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.generiC;
+package com.kv.javabasics.basic.generiC;
 
 public class MyGeneric<T> {
 

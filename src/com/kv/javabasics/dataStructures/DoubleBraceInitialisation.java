@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures;
+package com.kv.javabasics.dataStructures;
 
 import java.util.HashSet;
 import java.util.Set;

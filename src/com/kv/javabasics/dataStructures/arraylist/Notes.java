@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.arraylist;
+package com.kv.javabasics.dataStructures.arraylist;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.polymorphism;
+package com.kv.javabasics.basic.polymorphism;
 
 public class Ford extends Car{
     public Ford(int cylinders, String name) {

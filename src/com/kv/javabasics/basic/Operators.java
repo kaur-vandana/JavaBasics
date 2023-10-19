@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic;
+package com.kv.javabasics.basic;
 
 public class Operators {
     public static void main(String[] args) {

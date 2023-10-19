@@ -1,4 +1,4 @@
-package com.kv.javaCourse.passByValue.Demo2;
+package com.kv.javabasics.passByValue.Demo2;
 
 public class TestSpeed {
     public static void swap(Object o1, Object o2)// method for swapping variables

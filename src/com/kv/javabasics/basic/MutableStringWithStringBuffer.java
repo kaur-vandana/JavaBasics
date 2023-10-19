@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic;
+package com.kv.javabasics.basic;
 
 import java.util.Arrays;
 

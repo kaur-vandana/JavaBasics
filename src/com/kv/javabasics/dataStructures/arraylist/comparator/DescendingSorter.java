@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.arraylist.comparator;
+package com.kv.javabasics.dataStructures.arraylist.comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

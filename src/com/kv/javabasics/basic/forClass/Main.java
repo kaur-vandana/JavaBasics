@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic.forClass;
+package com.kv.javabasics.basic.forClass;
 
 public class Main {
     public static void main(String[] args) {

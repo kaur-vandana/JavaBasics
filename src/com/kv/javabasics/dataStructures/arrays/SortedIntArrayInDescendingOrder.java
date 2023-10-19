@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.arrays;
+package com.kv.javabasics.dataStructures.arrays;
 
 import java.util.Scanner;
 

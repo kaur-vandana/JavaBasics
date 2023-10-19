@@ -1,4 +1,4 @@
-package com.kv.javaCourse.passByValue.Demo4;
+package com.kv.javabasics.passByValue.Demo4;
 
 public class InterviewBitTest {
     int num;

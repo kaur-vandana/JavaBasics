@@ -1,4 +1,4 @@
-package com.kv.javaCourse.basic;
+package com.kv.javabasics.basic;
 
 //name method name with different parameters
 public class MethodOverloading {

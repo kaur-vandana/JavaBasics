@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.arraylist.comparator;
+package com.kv.javabasics.dataStructures.arraylist.comparator;
 
 public class Cricketer {
     int runs;
