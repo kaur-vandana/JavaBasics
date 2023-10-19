@@ -1,4 +1,4 @@
-package com.kv.functional.functionPredicate;
+package com.kv.functional.functionpredicate;
 
 import java.util.Arrays;
 import java.util.List;

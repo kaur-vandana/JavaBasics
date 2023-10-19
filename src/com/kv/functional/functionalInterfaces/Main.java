@@ -1,4 +1,4 @@
-package com.kv.functional.functionalInterfaces;
+package com.kv.functional.functionalinterfaces;
 
 public class Main implements Foo {
 

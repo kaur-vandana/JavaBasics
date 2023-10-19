@@ -1,4 +1,4 @@
-package com.kv.javaCourse.dataStructures.arrays.functionalProgramming;
+package com.kv.functional;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.kv.functional.functionalInterfaces;
+package com.kv.functional.functionalinterfaces;
 
 @FunctionalInterface // Annotation is optional
 public interface Foo {
