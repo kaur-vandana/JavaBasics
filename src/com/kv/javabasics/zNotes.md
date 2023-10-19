@@ -86,12 +86,9 @@
 * reference holds the address of the object and not the object itself.
 
 #### Method Overriding
-* Method overriding means defining a method in a child class that already exists in the parent class with same signature
-  (same name & same arguments)
-* By extending the parent class the child class gets all the methods defined in the parent class (those methods are also
-  known as derived methods )
-* Runtime Polymorphism and Dynamic Method Dispatch because the method that is going to be called is decided at runtime 
-  by the JVM
+* Method overriding means defining a method in a child class that already exists in the parent class with same signature (same name & same arguments)
+* By extending the parent class the child class gets all the methods defined in the parent class (those methods are also known as derived methods )
+* Runtime Polymorphism and Dynamic Method Dispatch because the method that is going to be called is decided at runtime by the JVM
 * when we override a method its recommended putting @Override immediately above the method definition.
   this annotation that the compiler reads and will then show us error if we don't follow overriding rules correctly.
 * we can't override static methods
