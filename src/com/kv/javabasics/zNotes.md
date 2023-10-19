@@ -45,8 +45,7 @@
 
 #### Unicode 
 * https://unicode-table.com/en/#latin-extended-a
-* Unicode is an international encoding standard for use with different languages and scripts, by which each letter, digit,
-   or symbol is assigned a unique numeric value that applies across different platforms and programs.
+* Unicode is an international encoding standard for use with different languages and scripts, by which each letter, digit, or symbol is assigned a unique numeric value that applies across different platforms and programs.
 
 #### Wrapper classes
 * Java uses the concept of a wrapper class for all eight primitive types
@@ -65,10 +64,10 @@
 
 #### String
 * A String is a datatype in Java, which is not a primitive type.
-* It's actually a Class, but it enjoys a bit of favoritism in Java to make it easier to use than a regular class.
+* It's actually a Class.
 * A String is a sequence of characters.
 * Strings in Java are immutable. That means you can't change a String after its created. Instead, a new String is created.
-* Strings can be made mutable using String Buffer and String Builder
+* Strings can be made mutable using String Buffer and String Builder.
 
 #### Comments
 * Comments are ignored by the computer and are added to a program to help describe something.
@@ -82,13 +81,7 @@
 4. while
 5. do-while
 
-#### Class
-* class is kind of user defined data type, and it is way more powerful than the primitive data types
-* Class name starts with the Upper case letter
-* method name starts with lower case letter
-
-* class is the blueprint
-* Object is also known as instance
+#### 
 * reference is the address, we can pass reference as parameters to constructor and methods
 * reference holds the address of the object and not the object itself.
 
