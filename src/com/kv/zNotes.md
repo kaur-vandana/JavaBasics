@@ -88,20 +88,20 @@
 #### Method Overriding
 * Method overriding means defining a method in a child class that already exists in the parent class with same signature (same name & same arguments)
 * By extending the parent class the child class gets all the methods defined in the parent class (those methods are also known as derived methods )
-* Runtime Polymorphism and Dynamic Method Dispatch because the method that is going to be called is decided at runtime by the JVM
+* also known as Runtime Polymorphism and Dynamic Method Dispatch because the method that is going to be called is decided at runtime by the JVM
 * when we override a method its recommended putting @Override immediately above the method definition.
-  this annotation that the compiler reads and will then show us error if we don't follow overriding rules correctly.
+  this annotation, the compiler reads and will then show us error if we don't follow overriding rules correctly.
 * we can't override static methods
 * only instance methods can be overridden
-* ALWAYS in 2 class
+
 
 ###### Methods will be considered overridden if we follow these rules
 - it must have same name and same arguments.
-- must have same return type  --- or ---
+- must have same return type 
+--- or ---
 - Return type can be a subclass of the return type in the parent class.
 - Only Inherited methods can be overridden
-- Constructor and private methods can not be overridden
-- Methods that are final can not be overridden
+- Constructor, private methods and methods that are final can not be overridden
 - A subclass can use super.methodName() to call the superclass version of an overridden method.
 - Must NOT throw a new or broader checked exception
 - Must NOT have a lower access modifier but can have a higher modifier.
